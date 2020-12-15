@@ -1,0 +1,11 @@
+.eachrow{
+	min-height: 80vh;
+}
+.form-control{
+	box-shadow: none  !important;	
+	height:35px ;
+}
+td, th{
+	border:none !important;
+	padding:7px !important
+}
