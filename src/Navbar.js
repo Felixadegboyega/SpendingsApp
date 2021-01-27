@@ -5,7 +5,7 @@ export default function Navbar(params) {
 	return(
 		<>
 			<nav className="navbar navbar-expand-md navbar-white shadow bg-white sticky-top">
-				<Link className="navbar-brand" to="/">ROUTER CLASS</Link>
+				<Link className="navbar-brand" to="/">SPENDINGS APP</Link>
 				<button className="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
 				</button>
