@@ -87,7 +87,7 @@ export default function Newinstance(params) {
 			 <div className="container-fluid">
 				<div className="row eachrow">
 					<div className="col-12">
-						<button onClick={handleLogout} class="mt-3 mr-3  btn btn-dark float-right fa fa-sign-out" aria-hidden="true"></button>
+						{/* <button onClick={handleLogout} class="mt-3 mr-3  btn btn-dark float-right fa fa-sign-out" aria-hidden="true"></button> */}
 					</div>
 					<div style={{height:"300px"}} className="col-10 mx-auto col-md-4 card p-0">
 						<div className="card-header">

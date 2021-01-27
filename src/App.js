@@ -25,12 +25,16 @@ export default function App(params) {
 						<GoodsIndex/>
 					</Route>
 
-					<NewInstanceGuard path="/newinstance" component={Newinstance}/>
+					{/* <NewInstanceGuard path="/newinstance" component={Newinstance}/> */}
 
-					<Route exact path="/login">
+					{/* <Route exact path="/login">
 						<Login/>
-					</Route>
+					</Route> */}
 						
+					<Route exact path="/newinstance">
+						<Newinstance/>
+					</Route>
+
 					<Route exact path="/days">
 						<Days/>
 					</Route>
